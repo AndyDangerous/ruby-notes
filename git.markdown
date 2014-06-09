@@ -56,6 +56,9 @@ And, if you just can't get enough Git, check out the Pro Git book: http://git-sc
 
 Cheat Sheet:
 
+| command | effect           |
+| ------------- | ----------- |
+
  | `git init`  |  sets up new repo |
 
  | `git status`  |  status checkup |
