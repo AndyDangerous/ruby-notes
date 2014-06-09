@@ -58,7 +58,6 @@ Cheat Sheet:
 
 | command | effect           |
 | ------------- | ----------- |
-
  | `git init`  |  sets up new repo |
 
  | `git status`  |  status checkup |
