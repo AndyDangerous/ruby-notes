@@ -81,20 +81,23 @@ array = ["A", "B", "C", "D"]
 => ["A", "B", "C", "D"]
 
 Array.each do |element|
-  puts "#{element} "
+  puts "#{element}"
 end
-=>"A B C D "
+=>"A 
+B 
+C 
+D "
 ```
 
 ## Useful Functions
 
-Here are a few useful functions regarding arrays:
-`.length` - returns length of array
-`.include?()` - checks to see if argument is an element in the array
-`.empty?` - boolean referring to array having any elements
-`.compact` - returns all non-`nil` elements
-`.delete()` - deletes element
-`.delete_at()` - deletes element at a particular index
+Here are a few useful functions regarding arrays:  
+`.length` - returns length of array  
+`.include?()` - checks to see if argument is an element in the array  
+`.empty?` - boolean referring to array having any elements  
+`.compact` - returns all non-`nil` elements  
+`.delete()` - deletes element  
+`.delete_at()` - deletes element at a particular index  
 `.sample` - pulls a random element from the array (accepts an argument for a number of samples greater than one)
 
 
