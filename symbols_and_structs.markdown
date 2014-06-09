@@ -6,7 +6,7 @@ Symbols are basically names. Any symbol refers to the same object. While strings
 #### Symbols vs. Strings
 Strings are good for when we want to work with (process) text, while symbols are useful to point to something else.
 
-```ruby
+
 | Symbol | Description          |
 | ------------- | ----------- |
 | `attr_reader :health`      | attribute named "health"|
@@ -14,7 +14,7 @@ Strings are good for when we want to work with (process) text, while symbols are
 | `find(:all)`  | option named "all" |
 |`if color == :red` ... `end`| color named "red"|
 |`[:open, :closed, :pending]`| array of statuses named "open", |
-```
+
 
 ### Structs
 Structs are collections of attributes. They save us from having to write a new class, but actually build a new class. A Struct is a convenient way to bundle a number of attributes together, using accessor methods, without having to write an explicit class.

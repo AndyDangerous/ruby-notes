@@ -56,15 +56,15 @@ And, if you just can't get enough Git, check out the Pro Git book: http://git-sc
 
 Cheat Sheet:
 
-`git init` - sets up new repo
-`git status` - status checkup
-`git add <file>` - git will start tracking file
-`git commit -m “message”` - commits files from staging to repo. “message” is the message is present tense, describes change and why made
-`git log` - chronological “journal” of commit changes
-`git remote add <remote_name> <repo URL>` - connects to remote repo
-`git push -u <remote_name> <branch>` - pushes local repo to remote, -u flag tells git to remember parameters so you can just use ‘git push’
-`git pull <remote_name> <branch>` - pulls from remote
-`git diff HEAD` - brings up changes, HEAD is most recent commit
-`git diff —staged` - shows differences staged
-`git reset <file>` - removes file from stage
-`git checkout — <target>` - returns target to last commit
+|`git init` | sets up new repo|
+|`git status` | status checkup|
+|`git add <file>` | git will start tracking file, git will update what will be committed|
+|`git commit -m “message”` | commits files from staging to repo. “message” is the message is present tense, describes change and why made|
+|`git log` | chronological “journal” of commit changes|
+|`git remote add <remote_name> <repo URL>` | connects to remote repo|
+|`git push -u <remote_name> <branch>` | pushes local repo to remote, -u flag tells git to remember parameters so you can just use ‘git push’|
+|`git pull <remote_name> <branch>` | pulls from remote|
+|`git diff HEAD` | brings up changes, HEAD is most recent commit|
+|`git diff —staged` | shows differences staged|
+|`git reset <file>` | removes file from stage|
+|`git checkout — <target>` | returns target to last commit|
